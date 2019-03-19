@@ -1,0 +1,60 @@
+14:27:58.679 [main] INFO  com.batisex.Application - Starting Application on DESKTOP-FUQP5P8 with PID 22224 (C:\workspace\DemoTest1\ApiTestNGMyBatisDemo\target\classes started by ch in C:\workspace\DemoTest1)
+14:27:58.682 [main] INFO  com.batisex.Application - No active profile set, falling back to default profiles: default
+14:27:58.721 [main] INFO  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7eac9008: startup date [Tue Mar 19 14:27:58 CST 2019]; root of context hierarchy
+14:27:59.358 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.batisex]' package. Please check your configuration.
+14:27:59.642 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$12e29a86] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:28:00.127 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8899 (http)
+14:28:00.142 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8899"]
+14:28:00.152 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+14:28:00.152 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+14:28:00.161 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Java\jdk1.8.0_191\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Java\jdk1.8.0_191\bin;C:\Java\jdk1.8.0_191\jre\bin;C:\Program Files\Git\cmd;%JMETER_HOME%\bin;E:\mysql-5.7.20-winx64\bin;C:\Users\ch\AppData\Local\Microsoft\WindowsApps;;E:\Fiddler;.]
+14:28:01.097 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:28:01.097 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2376 ms
+14:28:01.213 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+14:28:01.217 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+14:28:01.218 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+14:28:01.218 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+14:28:01.218 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+14:28:01.862 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/getUserInfo],methods=[POST]}" onto public java.util.List<com.batisex.model.User> com.batisex.controller.UserManager.getUserInfo(javax.servlet.http.HttpServletRequest,com.batisex.model.User)
+14:28:01.863 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/addUser],methods=[POST]}" onto public boolean com.batisex.controller.UserManager.addUser(javax.servlet.http.HttpServletRequest,com.batisex.model.User)
+14:28:01.863 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/login],methods=[POST]}" onto public java.lang.Boolean com.batisex.controller.UserManager.login(javax.servlet.http.HttpServletResponse,com.batisex.model.User)
+14:28:01.863 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v1/updateUserInfo],methods=[POST]}" onto public int com.batisex.controller.UserManager.updateUser(javax.servlet.http.HttpServletRequest,com.batisex.model.User)
+14:28:01.864 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+14:28:01.867 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources]}" onto org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+14:28:01.868 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/ui]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+14:28:01.869 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/swagger-resources/configuration/security]}" onto org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+14:28:01.874 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+14:28:01.874 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+14:28:02.171 [main] INFO  org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7eac9008: startup date [Tue Mar 19 14:27:58 CST 2019]; root of context hierarchy
+14:28:02.237 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:28:02.237 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:28:02.270 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+14:28:02.422 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+14:28:02.423 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+14:28:02.428 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+14:28:02.433 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 2147483647
+14:28:02.433 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+14:28:02.452 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+14:28:02.463 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+14:28:02.661 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8899"]
+14:28:02.671 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+14:28:02.688 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8899 (http) with context path ''
+14:28:02.692 [main] INFO  com.batisex.Application - Started Application in 4.348 seconds (JVM running for 9.555)
+14:28:10.770 [http-nio-8899-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+14:28:10.770 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+14:28:10.792 [http-nio-8899-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+14:28:10.879 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+14:28:11.060 [http-nio-8899-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+14:28:11.112 [http-nio-8899-exec-1] INFO  com.batisex.controller.UserManager - 查询到的结果是：1
+14:28:11.113 [http-nio-8899-exec-1] INFO  com.batisex.controller.UserManager - 登录用户是：zhangsan
+14:28:11.173 [http-nio-8899-exec-2] INFO  com.batisex.controller.UserManager - 查询到的结果是：0
+14:28:11.258 [http-nio-8899-exec-3] INFO  com.batisex.controller.UserManager - cookie 验证通过
+14:28:11.336 [http-nio-8899-exec-3] INFO  com.batisex.controller.UserManager - 添加用户的数量是：1
+14:28:14.418 [http-nio-8899-exec-5] INFO  com.batisex.controller.UserManager - cookie 验证通过
+14:28:14.446 [http-nio-8899-exec-5] INFO  com.batisex.controller.UserManager - getUserInfo获取到的用户数量为:1
+14:28:14.515 [http-nio-8899-exec-4] INFO  com.batisex.controller.UserManager - cookie 验证通过
+14:28:14.518 [http-nio-8899-exec-4] INFO  com.batisex.controller.UserManager - getUserInfo获取到的用户数量为:6
+14:28:14.641 [http-nio-8899-exec-6] INFO  com.batisex.controller.UserManager - cookie 验证通过
+14:28:14.679 [http-nio-8899-exec-6] INFO  com.batisex.controller.UserManager - 更新数据的条目数为：1
+14:28:14.728 [http-nio-8899-exec-7] INFO  com.batisex.controller.UserManager - cookie 验证通过
+14:28:14.759 [http-nio-8899-exec-7] INFO  com.batisex.controller.UserManager - 更新数据的条目数为：1

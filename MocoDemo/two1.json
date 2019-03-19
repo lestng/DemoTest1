@@ -1,0 +1,28 @@
+[
+  {
+    "description":"模拟一个用json传参带信息头的post请求",
+    "request":{
+      "uri":"/uicsr/api/user/login",
+      "method":"post",
+
+      "headers":{
+        "content-type":"application/json"
+      },
+      "json":{
+        "username":"zhangsan",
+        "password":"123456"
+      }
+    },
+    "response":{
+      "status":200,
+      "cookies":{
+        "thone":"123412"
+      },
+      "json":{
+        "status":"1",
+        "hde":"chenggong"
+      }
+    }
+  }
+
+]

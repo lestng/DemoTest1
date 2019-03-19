@@ -1,0 +1,52 @@
+[
+  {
+    "description":"模拟返回cookie信息的Get请求",
+    "request":{
+      "uri":"/getcookie1",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "thone":"123412",
+        "rut":"ture"
+      },
+      "text":"cookie信息返回成功",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+  "description":"模拟一个不带参数带cookies的get请求",
+    "request":{
+      "uri":"/getdemo",
+      "method":"get",
+      "cookies":{
+        "thone":"123412"
+      }
+    },
+    "response":{
+      "text":"不带参数的get请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  },
+  {
+    "description":"模拟一个带参数的get请求",
+    "request":{
+      "uri":"/getques",
+      "method":"get",
+      "queries":{
+        "name":"zhangsan",
+        "age":"18"
+}
+    },
+    "response":{
+      "text":"带参数的get请求",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+  }
+}
+  }
+]

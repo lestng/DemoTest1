@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ApiTestDemo" />
+        <module name="ApiTestNGMyBatisDemo" />
+        <module name="BaiduTestDemo" />
+        <module name="HttpClient" />
+        <module name="HttpClientDemo" />
+        <module name="MyBatis" />
+        <module name="SpringBoot" />
+        <module name="TestngDemo2" />
+      </profile>
+      <profile name="Annotation profile for TestngDemo" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestngDemo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiTestDemo" target="1.8" />
+      <module name="ApiTestNGMyBatisDemo" target="1.8" />
+      <module name="BaiduTestDemo" target="1.8" />
+      <module name="DemoTest1" target="1.8" />
+      <module name="HttpClient" target="1.5" />
+      <module name="HttpClientDemo" target="1.8" />
+      <module name="MyBatis" target="1.8" />
+      <module name="SpringBoot" target="1.8" />
+      <module name="TestngDemo" target="1.5" />
+      <module name="TestngDemo1" target="1.5" />
+      <module name="TestngDemo2" target="1.6" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

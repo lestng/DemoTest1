@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiTestDemo/ApiTestDemo.iml" filepath="$PROJECT_DIR$/ApiTestDemo/ApiTestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ApiTestNGMyBatisDemo/ApiTestNGMyBatisDemo.iml" filepath="$PROJECT_DIR$/ApiTestNGMyBatisDemo/ApiTestNGMyBatisDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BaiduTestDemo/BaiduTestDemo.iml" filepath="$PROJECT_DIR$/BaiduTestDemo/BaiduTestDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DemoTest1.iml" filepath="$PROJECT_DIR$/.idea/DemoTest1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpClientDemo/HttpClientDemo.iml" filepath="$PROJECT_DIR$/HttpClientDemo/HttpClientDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyBatis/MyBatis.iml" filepath="$PROJECT_DIR$/MyBatis/MyBatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot/SpringBoot.iml" filepath="$PROJECT_DIR$/SpringBoot/SpringBoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestngDemo1/TestngDemo.iml" filepath="$PROJECT_DIR$/TestngDemo1/TestngDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestngDemo2/TestngDemo2.iml" filepath="$PROJECT_DIR$/TestngDemo2/TestngDemo2.iml" />
+    </modules>
+  </component>
+</project>

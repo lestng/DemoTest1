@@ -1,0 +1,14 @@
+[
+  {
+    "description":"mock描述",
+    "request":{
+      "uri":"/lujin"
+    },
+    "response":{
+      "text":"这是响应内容demo",
+      "headers":{
+        "Content-Type":"text/html;charset=gbk"
+      }
+    }
+  }
+]
